@@ -1,9 +1,9 @@
 .box {
-  position: fixed;
-  width: 1440px;
-  height: 772px;
-  top: 0;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Змінено націлення вправо */
+  justify-content: flex-start; /* Змінено націлення вгору */
+  height: 100vh;
   background-image: linear-gradient(
       rgba(0.38, 24.91, 87.97, 0),
       rgba(0, 0, 0, 1)
@@ -14,24 +14,46 @@
 }
 
 .button-top {
-  position: fixed;
   width: 286px;
   height: 57px;
-  top: 38px; /* Встановлюємо відступ зверху на 38 пікселів */
-  right: 52px; /* Встановлюємо відступ справа на 52 пікселя */
   background-color: #ffffff;
   border-radius: 100px;
   cursor: pointer;
+  margin-top: 38px;
+  margin-right: 52px; /* Залишено відстань зправа */
 }
 
 .register {
-  height: 30px;
-  top: 0;
-  left: 0;
   font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
   color: #001857;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Змінено націлення вліво */
+  text-align: left; /* Додано цей рядок для ліворуч вирівнювання тексту */
+  margin-left: 39px; /* Додано відстань зліва */
+  margin-top: 20px; /* Додано відстань зверху */
+}
+
+.logo {
+  width: 80px;
+  height: 120px;
+  margin-right: 39px; /* Залишено відстань справа */
+}
+
+.title {
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
