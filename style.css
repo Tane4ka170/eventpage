@@ -57,3 +57,59 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.international{
+  color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
+
+.conference{
+    color: #ffffff;
+      text-align: left;
+      font-family: "Poppins-Bold", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      position: relative;
+}
+
+.little-info{
+  color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.register-2{
+    background: #ffffff;
+      border-radius: 100px;
+      width: 286px;
+      height: 57px;
+      position: relative;
+}
+
+.btn-txt{
+  color: #001958;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.attention{
+    color: #ffffff;
+      text-align: left;
+      font-family: "Poppins-Regular", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      position: relative;
+}
