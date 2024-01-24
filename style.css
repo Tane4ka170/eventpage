@@ -106,3 +106,12 @@
   font-weight: 400;
   position: relative;
 }
+
+.title-2{
+  color: #001958;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
