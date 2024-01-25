@@ -1,6 +1,6 @@
 .box {
   display: flex;
-  flex-direction: row-reverse; 
+  flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: space-between;
   height: 100vh;
@@ -41,7 +41,7 @@
 
 .logo {
   width: 80px;
-  height: 120px; 
+  height: 120px;
 }
 
 .main-text {
@@ -107,11 +107,25 @@
   position: relative;
 }
 
-.title-2{
+.section-2 {
+  position: relative;
+  width: 100%; /* Adjust width as needed */
+  height: 252px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.title-2 {
   color: #001958;
-    text-align: left;
-    font-family: "Poppins-Bold", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    position: relative;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  margin-top: 39px;
+}
+
+.list {
+  list-style: none;
 }
